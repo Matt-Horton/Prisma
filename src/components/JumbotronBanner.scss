@@ -1,0 +1,49 @@
+@import '../styles/style.scss';
+
+.headerBanner {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 56px);
+  /*background-image: url(../images/laptop-background1.jpg);*/
+  background: linear-gradient(to right, rgba(15, 52, 67, 0.9), rgba(15, 52, 67, 0.9)), url(../images/doctor-banner.jpg);
+  background-position: center center;
+  background-size: cover;
+  min-height: 600px;
+  justify-content: center;
+}
+
+.content-container {
+  max-width: 400px;
+}
+
+.content-container h2 {
+  color: #fff;
+  font-weight: 700;
+}
+
+.content-container p {
+  color: rgb(224, 224, 224);
+  font-weight: 600;
+}
+
+.banner-btn {
+  display: block;
+  padding: 1rem;
+  border: 2px solid white;
+  border-radius: 50px;
+  width: 175px;
+  justify-content: center;
+  text-align: center;
+  margin-top: 3em;
+}
+
+.content-container a:hover {
+  text-decoration: none;
+}
+
+.banner-btn p {
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  color: #fff;
+}
