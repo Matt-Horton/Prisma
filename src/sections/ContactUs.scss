@@ -23,15 +23,41 @@
 
 .contact-form {
   width: 100%;
+  margin: auto;
+  max-width: 800px;
   display: flex;
   flex-direction: column;
+  padding: 1rem 3rem;
 }
 
 .contact-form-row {
-  display: flex;
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 1rem;
   flex-direction: row;
 }
 
 .contact-form-row input {
   flex-grow: 1;
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  padding-left: 1rem;
+}
+
+.contact-form textarea {
+  flex-grow: 1;
+  border: none;
+  border-radius: 10px;
+  margin-top: 1rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+
+.contact-submit-btn {
+  border-radius: 10px;
+  height: 40px;
+  background-color: $accent;
+  margin-top: 2rem;
+  border: 0;
 }

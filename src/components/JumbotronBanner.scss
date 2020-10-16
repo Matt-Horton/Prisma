@@ -31,13 +31,18 @@
 
 .banner-btn {
   display: block;
-  padding: 1rem;
+  padding: 0.8rem;
   border: 2px solid white;
   border-radius: 50px;
-  width: 175px;
+  width: 150px;
   justify-content: center;
   text-align: center;
   margin-top: 3em;
+}
+
+.banner-btn:hover {
+  background-color: $accent;
+  border: none;
 }
 
 .content-container a:hover {

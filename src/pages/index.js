@@ -5,6 +5,9 @@ import About from "../sections/About";
 import OurWork from "../sections/OurWork";
 import Team from "../sections/Team";
 import ContactUs from "../sections/ContactUs";
+import Footer from "../sections/Footer";
+import Video from "../sections/Video";
+import './index.scss';
 
 const Home = () => {
   return (
@@ -13,8 +16,10 @@ const Home = () => {
       <JumbotronBanner />
       <About />
       <OurWork />
+      <Video />
       <Team />
       <ContactUs />
+      <Footer />
     </div>
   )
 }
