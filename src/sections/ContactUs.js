@@ -15,10 +15,10 @@ const ContactUs = () => {
         <div>
           <form className="contact-form">
             <div className="contact-form-row">
-              <input type="text" id="name" name="name" placeholder="Name"/>
-              <input type="text" id="email" name="email" placeholder="Email"/>
+              <input type="text" id="name" name="name" placeholder="Name" />
+              <input type="text" id="email" name="email" placeholder="Email" />
             </div>
-            <textarea id="message" name="message" rows="4" cols="50" placeholder="Your message..."/>
+            <textarea id="message" name="message" rows="4" cols="50" placeholder="Your message..." />
             <button className="contact-submit-btn">Submit</button>
           </form>
         </div>

@@ -3,10 +3,17 @@ $font-stack: Helvetica, sans-serif;
 $primary-color: #000;
 $white: #fff;
 
-
 .navbar {
   background-color: $white;
   border-bottom: 1px solid #d4d4d4;
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
+}
+
+.navbar-light .navbar-toggler:focus {
+  outline: none;
 }
 
 .navbar .navbar-nav .nav-link {

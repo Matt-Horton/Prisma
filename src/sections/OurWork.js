@@ -8,7 +8,7 @@ const OurWork = () => {
       <Container>
         <div className="row">
           <div className="col-md-6 work-image-container">
-            <img src={require("../images/doctor-banner.jpg")} className="work-image"/>
+            <img src={require("../images/our-work.png")} className="work-image"/>
           </div>
           <div className="col-md-6 work-info-container">
             <div className="work-section-header">

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import './About.scss';
+import './Team.scss';
 
 const Team = () => {
   return (
@@ -19,17 +20,19 @@ const Team = () => {
         <div className="row">
           <div className="col-md-6">
             <div className="about-item">
-              <div className="icon-container">
+              <div>
+                <img src={require("../images/lawrence.png")} className="profile-image" />
               </div>
               <h5>Lawrence Schobs</h5>
-              <p>PhD Student. Lawrence completed his Computer Science BSc at the University of Sheffield, working on our technology as part of his degree. 
+              <p>PhD Student. Lawrence completed his Computer Science BSc at the University of Sheffield, working on our technology as part of his degree.
               He is currently taking the lead on the commercialisation of the project.</p>
             </div>
           </div>
-          
+
           <div className="col-md-6">
             <div className="about-item">
-              <div className="icon-container">
+              <div>
+                <img src={require("../images/haiping.jpg")} className="profile-image" />
               </div>
               <h5>Dr Haiping Lu</h5>
               <p>Senior Lecturer & Researcher. Dr Lu is well established in the field of machine learning, currently working at Sheffield.
@@ -38,7 +41,8 @@ const Team = () => {
           </div>
           <div className="col-md-6">
             <div className="about-item">
-              <div className="icon-container">
+              <div>
+                <img src={require("../images/johanna.png")} className="profile-image" />
               </div>
               <h5>Dr Johanna Uthoff</h5>
               <p>Postdoc. Dr Uthoff completed her PhD at the University of Iowa, focusing on machine learning with medical imaging. She has a postdoc position at Sheffield, working on our AI.</p>
@@ -46,16 +50,17 @@ const Team = () => {
           </div>
           <div className="col-md-6">
             <div className="about-item">
-              <div className="icon-container">
+              <div>
+                <img src={require("../images/andrew.png")} className="profile-image" />
               </div>
               <h5>Dr Andrew Swift</h5>
-              <p>Radiologist and Research Fellow. Dr Swift is an experienced radiologist at Sheffield, specializing in PH. 
+              <p>Radiologist and Research Fellow. Dr Swift is an experienced radiologist at Sheffield, specializing in PH.
               He has numerous publications on the subject, providing our team with expert clinical insights for our technology.  </p>
             </div>
           </div>
         </div>
-        
-        
+
+
       </Container>
     </section>
   )
