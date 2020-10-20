@@ -16,7 +16,6 @@ const Home = () => {
       <JumbotronBanner />
       <About />
       <OurWork />
-      <Video />
       <Team />
       <ContactUs />
       <Footer />
