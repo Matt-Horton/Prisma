@@ -23,7 +23,9 @@
 
 
 .work-info-container p {
+  color: $text;
   font-size: 0.9rem;
+  margin-top: 2rem;
 }
 
 .work-info-container hr {
@@ -32,9 +34,4 @@
   max-width: 50px;
   border-width: 3px;
   border-color: $accent;
-}
-
-.work-info-container p {
-  margin-top: 2rem;
-  color: #b3b3b3;
 }

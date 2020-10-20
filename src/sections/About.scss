@@ -29,9 +29,9 @@
 
 .section-info {
   font-size: 0.9em;
-  color: #b3b3b3;
+  color: $text;
   line-height: 1.2em;
-  max-width: 500px;
+  max-width: 600px;
   display: inline-block;
 }
 
@@ -74,7 +74,7 @@
 }
 
 .about-item p {
-  color: #b3b3b3;
+  color: $text;
   line-height: 1.1rem;
   font-size: 0.9rem;
 }

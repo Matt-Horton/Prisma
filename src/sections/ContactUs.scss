@@ -1,5 +1,9 @@
 @import '../styles/style.scss';
 
+.partner-row {
+  background-color: #d1d1d1;
+}
+
 .contact-us-section {
   background-color: $primary;
   padding-top: 2rem;
@@ -19,6 +23,10 @@
 
 .contact-row h5 {
   color: #ffffff;
+}
+
+.contact-row p {
+  color: #dedede;
 }
 
 .contact-form {

@@ -25,6 +25,12 @@
   font-weight: 600;
 }
 
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
 .highlighted {
   color: $accent;
 }
@@ -45,6 +51,22 @@
   border: none;
 }
 
+.banner-btn-contact {
+  display: block;
+  padding: 0.8rem;
+  border: 2px solid $accent;
+  border-radius: 50px;
+  width: 150px;
+  justify-content: center;
+  text-align: center;
+  margin-top: 3em;
+  background-color: $accent;
+}
+
+.banner-btn-contact:hover {
+  background-color: #4cfcb3;
+}
+
 .content-container a:hover {
   text-decoration: none;
 }
@@ -55,4 +77,12 @@
   text-transform: uppercase;
   font-size: 0.9em;
   color: #fff;
+}
+
+.banner-btn-contact p {
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  color: #404040;
 }

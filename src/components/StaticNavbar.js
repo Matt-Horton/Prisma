@@ -11,7 +11,7 @@ const StaticNavbar = () => {
 
   useEffect(() => {
     window.addEventListener('resize', () => {
-      setIsMobile(window.innerWidth < 990);
+      setIsMobile(window.innerWidth < 992);
     }, false);
   });
 
@@ -23,7 +23,7 @@ const StaticNavbar = () => {
     <Navbar collapseOnSelect expand="lg" id="mainNav">
       <Container>
         <Navbar.Brand href="#home">
-          <img src={require("../images/prisma-logo.png")} style={{width: 150, height: 50}}/>
+          <img src={require("../images/prisma-logo.png")} style={{width: 100, height: 30}}/>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={toggleDropdown}>
           {collapsed ? <FontAwesomeIcon icon={faTimes} size="lg" color="#0f3443" /> : <FontAwesomeIcon icon={faBars} size="lg" color="#0f3443" />}
