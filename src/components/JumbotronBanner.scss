@@ -28,7 +28,6 @@
 .btn-container {
   display: flex;
   flex-direction: row;
-  gap: 1rem;
 }
 
 .highlighted {
@@ -44,6 +43,7 @@
   justify-content: center;
   text-align: center;
   margin-top: 3em;
+  margin-right: 1rem;
 }
 
 .banner-btn:hover {
