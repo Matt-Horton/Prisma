@@ -16,7 +16,9 @@ const StaticNavbar = () => {
   });
 
   const toggleDropdown = () => {
-    setCollapsed(!collapsed);
+    if (isMobile) {
+      setCollapsed(!collapsed);
+    }
   }
 
   return (
